@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(183, 183, 178);
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+}
+
+#heading{
+    font-size: 23px;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+
+}
+
+#Profile{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  text-align: justify;
+}
+
+
+#Profile summary::-webkit-details-marker{display: none;}
+
+#Profile  ul li{
+    position: relative;
+    left: 15px;  
+}
+
+.bye{
+    visibility: hidden;
+}
+
+#content{
+    max-height: 200px;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 2px;
+    background-color: antiquewhite;
+    box-shadow: black 2% 1%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: justify;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+
+}
+
+#content.open{
+    max-height: 1000px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 2px;
+    overflow: hidden;
+    text-align: justify;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+
+#but{
+    padding: 10px 20px;
+    background-color: rgb(107, 64, 64);
+    display: block;
+    width: 140px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    box-shadow: 10px 10px 14px grey ;
+}
+
+.timer{
+    margin: 140px auto;
+}
+
+#box{
+    max-width: 440px;
+    min-height: 145px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background: white;
+    border: solid rgb(58, 56, 56);
+    box-shadow: 10px 10px 14px grey ;
+
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+    transition: background-color 0.7s;
+}
+
+#CName{
+text-align: center;
+margin-top: auto;
+font-size: 18px;
+}
+
+.form{
+    margin-bottom: 140px;
+}
+
+#myform{
+  box-shadow: 10px 10px 10px grey;
+  margin:20px auto ;
+  max-width: 400px;
+  border-radius: 2%;
+  min-height: 380px;
+  padding:40px 13px ;
+  padding-top:8px ;
+  background-color: rgb(204, 195, 195);
+  color: rgb(32, 30, 30);
+}
+
+.heading{
+  margin: 50px auto ;
+  margin-top: 2px;
+  font-size: 27px;
+
+}
+
+.elements {
+  font-size: 20px;  
+  margin: 10px 15px;
+}
+
+input[type=text],input[type=email]{
+    min-width: 95%;
+    height: 35px;
+}
+
+input[type=radio]{
+    margin-top: 2px;
+    margin-left: 20%;
+}
+.radiobuttons{
+ font-size: medium;
+ justify-content: left;
+ align-items: left;
+}
+
+#Message{
+    color: rgb(133, 9, 9);
+    margin: 15px 5%;
+    margin-bottom: 0px;
+}
+
+button{
+   padding: 11px 100px;
+   margin: 15px 73px;
+   margin-bottom: 5px;
+}
+
+.jQuery{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#para .test{
+    color: blueviolet;
+
+    -webkit-transition: color 0.7s;
+    -moz-transition: color 0.7s;
+    transition: color 0.7s;
+}
+
+#Options{
+    font-size: 18px;
+    font-family:  sans-serif  ;
+    font-style: italic;
+    min-width: 100%;
+    min-height: 55px;
+    border-radius: 4px;
+    background-color: rgb(132, 118, 118);
+}
+
+.jQuery #Options ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.jQuery #Options ul li{
+    margin: 20px auto;
+    list-style: none;
+    text-align: left;
+    color: rgb(31, 31, 35);
+    cursor: pointer;
+    
+}
+
+.jQuery #Options ul li:hover{
+    color: black;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    }
+  
+  .rslides li {
+    
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
